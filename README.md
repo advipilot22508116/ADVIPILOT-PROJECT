@@ -7,20 +7,32 @@ sdk: gradio
 app_file: app.py
 pinned: false
 ---
-# Advipilot RL Environment
+# 🚀 Advipilot – Career Simulation using RL
 
-This project simulates career decision-making using Reinforcement Learning.
+## 🧠 Problem
+Students struggle to choose the right career path due to lack of clarity and long-term vision.
 
-## Features
-- Career Decision Score (CDS)
-- Feasibility validation
-- Dream / Primary / Safe paths
-- Risk-aware reward system
+## 💡 Solution
+Advipilot uses Reinforcement Learning to simulate career decisions over time and evaluate outcomes based on skill growth, feasibility, and rewards.
 
-## How it works
-The agent simulates a student over 10 years and learns optimal decisions.
+## 🔥 Features
+- Career decision simulation (Dream / Primary / Safe paths)
+- Skill growth tracking over years
+- Reward-based learning system
+- Feasibility-aware decision logic
+- Interactive UI using Gradio
 
-## Run
-pip install -r requirements.txt
-python train.py
-python demo.py
+## ⚙️ Tech Stack
+- Python
+- PyTorch
+- Gradio
+
+## ▶️ How to Run
+pip install -r requirements.txt  
+python app.py
+
+## 📸 Demo
+![Demo](demo.png)
+
+## 🏆 Why this is unique
+Unlike traditional career guidance tools, this project simulates long-term outcomes using Reinforcement Learning, helping users understand the impact of their decisions over time.
