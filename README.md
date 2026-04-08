@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python app.py
 
 ## 📸 Demo
-![Demo](demo.png)
+![Demo](demo1.jpeg)
 
 ## 🏆 Why this is unique
 Unlike traditional career guidance tools, this project simulates long-term outcomes using Reinforcement Learning, helping users understand the impact of their decisions over time.
